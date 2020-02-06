@@ -1,3 +1,99 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: scroll;
+  }
+
+main {
+  flex: 1 0 auto;
+  }
+
+nav{
+  position: fixed;
+  background: rgba(0, 0, 0, 0);
+  min-height: max-content !important;
+  height: 80px !important;
+  line-height: 80px;
+  z-index: 999;
+  transition: background 0.2s ease-in-out;
+  border: none !important;
+  box-shadow: none !important;
+  }
+
+.nav-wrapper{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.brand-logo{
+  color: black !important;
+}
+
+.navsec{
+  background-image: url(../img/test.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 50vh !important;
+}
+
+nav ul a{
+  color: black;
+
+}
+
+nav ul a:hover{
+  font-size: large;
+  color: darkcyan !important;
+}
+
+.bg{
+  background: greenyellow !important;
+}
+
+.bg2{
+  color: black !important;
+}
+
+footer{
+  background: black !important;
+  height: 50px !important;
+  line-height: 50px !important;
+}
+
+.sidenav-trigger{
+  color: black;
+}
+
+.aboutsec{
+  height: fit-content;
+  overflow: none;
+}
+
+.aboutsec p{
+  font-size: x-large;
+}
+
+.callbtn{
+  position:fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.productimg{
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  min-height: 338px;
+  min-width: 338px;
+}
+
+
+
+
 /* body {
   display: flex;
   min-height: 100vh;
