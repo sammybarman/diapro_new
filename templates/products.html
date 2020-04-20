@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="{{url_for('static', filename='css/materialize.min.css')}}" media="screen,projection">
   <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" media="screen,projection">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/floating-wpp.min.css')}}" media="screen,projection">
   <!-- End Css -->
 
 </head>
@@ -23,7 +24,10 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="/"><b>Home</b></a></li>
-        <li><a href="/#contact"><b>Contact Us</b></a></li>
+        <li><a href="/#sec1"><b>About</b></a></li>
+        <li><a href="/why"><b>Why Diapro?</b></a></li>
+        <li><a href="/#social"><b>Social</b></a></li>
+        <li><a href="/#contact"><b>Contact</b></a></li>
       </ul>
     </div>
   </nav>
@@ -31,7 +35,10 @@
   <!-- side nav on smaller screens -->
   <ul class="sidenav" id="mobile-demo">
     <li><a href="/"><b>Home</b></a></li>
-    <li><a href="#contact"><b>Contact Us</b></a></li>
+    <li><a href="/#sec1"><b>About</b></a></li>
+    <li><a href="/why"><b>Why Diapro?</b></a></li>
+    <li><a href="/#social"><b>Social</b></a></li>
+    <li><a href="/#contact"><b>Contact</b></a></li>
   </ul>
 
   <section id="sec2" style="min-height: 100vh; margin-top: 70px;">
@@ -90,9 +97,9 @@
     
   </section>
 
-  <a class="btn-floating btn-large green tooltipped callbtn hide-on-med-and-down" data-position="top" data-tooltip="CONTACT US" href="contact.html">
-    <i class="large material-icons">mail</i>
-  </a>
+  <div id="WAButton">
+
+  </div>
 
   <footer>
     <div class="container white-text">
@@ -109,9 +116,9 @@
   </script>
   <script src="static/js/materialize.js"></script>
   <script src="static/js/product.js"></script>
+  <script src="static/js/floating-wpp.min.js"></script>
   <script src="https://kit.fontawesome.com/d9f7d83514.js" crossorigin="anonymous"></script>
   <!-- End Scripts -->
-
 
 </body>
 </html>

@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="{{url_for('static', filename='css/materialize.min.css')}}" media="screen,projection">
   <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" media="screen,projection">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/floating-wpp.min.css')}}" media="screen,projection">
   <!-- End Css -->
 
 </head>
@@ -27,7 +28,7 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#sec1"><b>About</b></a></li>
-        <li><a href="#!"><b>Why Diapro?</b></a></li>
+        <li><a href="/why"><b>Why Diapro?</b></a></li>
         <li><a href="/product"><b>Products</b></a></li>
         <li><a href="#social"><b>Social</b></a></li>
         <li><a href="#contact"><b>Contact</b></a></li>
@@ -38,7 +39,7 @@
   <!-- sde nav on smaller screens -->
   <ul class="sidenav" id="mobile-demo">
     <li><a href="#sec1"><b>About</b></a></li>
-    <li><a href="#!"><b>Why Diapro?</b></a></li>
+    <li><a href="/why"><b>Why Diapro?</b></a></li>
     <li><a href="/product"><b>Products</b></a></li>
     <li><a href="#social"><b>Social</b></a></li>
     <li><a href="#contact"><b>Contact Us</b></a></li>
@@ -61,13 +62,13 @@
       </p>
     </div>
 
-    <h3 class="center white-text"><span class="red-text"><b>DIAPRO</b></span> is the leading manufacturer and distributor of customized diabetic footwear and comfort wear.</h3>
+    <h3 class="center white-text"><span class="red-text"><b>DIAPRO</b></span> is the leading manufacturer and distributor of customized diabetic footwear and pain relieving footwear.</h3>
 
     <div class="container white-text center">
       <p>
         Diapro was started with the intention of providing reliable and effective shoes that offset many of the complications associated with Diabetic Patients. Our shoes provide a level of comfort and support that is unheard of and rarely seen amongst our competitors.
         Our “DIAPRO® Diabetic Footwear” is patient friendly, clinically accepted, time tested and conforms to all safety and medical standards, along with “certifications”.<br>
-        <span class="red-text"><a style="color: inherit;" href=""><b>READ MORE</b></a></span>
+        <span class="red-text"><a style="color: inherit;" href="/why"><b>READ MORE</b></a></span>
       </p>
     </div>
   </section>
@@ -103,16 +104,17 @@
           9, Dr. Sundari Mohan Avenue. <br>
           Beside Calcutta National Medical College <br>
           Kolkata - 700 014, West Bengal <br> <br>
-          <b>PHONE NUMBER - </b>9831077320</p>
+          <b>PHONE NUMBER - </b>9831077320 <br><br>
+          <b>EMAIL ID - </b>diapros_dr@yahoo.com</p>
       </div>
 
     </div>
 
   </section>
 
-  <a class="btn-floating btn-large green tooltipped callbtn hide-on-med-and-down" data-position="top" data-tooltip="CONTACT US" href="contact.html">
-    <i class="large material-icons">mail</i>
-  </a>
+  <div id="WAButton">
+
+  </div>
 
   <footer>
     <div class="container white-text">
@@ -129,6 +131,7 @@
   </script>
   <script src="static/js/materialize.js"></script>
   <script src="static/js/init.js"></script>
+  <script src="static/js/floating-wpp.min.js"></script>
   <script src="https://kit.fontawesome.com/d9f7d83514.js" crossorigin="anonymous"></script>
   <!-- End Scripts -->
 

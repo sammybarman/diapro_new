@@ -31,7 +31,7 @@ $(document).ready(function(){
   
   $(window).scroll(function(){
   
-    if($(window).scrollTop()>30){
+    if($(window).scrollTop()>40){
       $('nav').addClass('bg');
       $('.brand-logo').addClass('bg2');
       $('nav ul a').addClass('bg2');
@@ -40,6 +40,20 @@ $(document).ready(function(){
       $('.brand-logo').removeClass('bg2');
       $('nav ul a').removeClass('bg2');
     }
+  });
+
+  $(function () {
+    $('#WAButton').floatingWhatsApp({
+        phone: '+919831077320', //WhatsApp Business phone number
+        headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+        popupMessage: 'Hello, how can we help you?', //Popup Message
+        showPopup: true, //Enables popup display
+        buttonImage: '<img src="static/img/whatsapp.svg" />', //Button Image
+        //headerColor: 'crimson', //Custom header color
+        //backgroundColor: 'crimson', //Custom background button color
+        position: "right" //Position: left | right
+  
+    });
   });
   
   

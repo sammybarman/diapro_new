@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Diapro</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/materialize.min.css')}}" media="screen,projection">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" media="screen,projection">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/floating-wpp.min.css')}}" media="screen,projection">
+  <!-- End Css -->
+
+</head>
+<body>
+  
+  <!-- Facebook Plugin -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+
+  <a name="top"></a>
+
+  <!-- navigation bar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center"><b>DIAPRO</b></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/"><b>Home</b></a></li>
+        <li><a href="/#sec1"><b>About</b></a></li>
+        <li><a href="/product"><b>Products</b></a></li>
+        <li><a href="/#social"><b>Social</b></a></li>
+        <li><a href="/#contact"><b>Contact</b></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- sde nav on smaller screens -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="/"><b>Home</b></a></li>
+    <li><a href="/#sec1"><b>About</b></a></li>
+    <li><a href="/product"><b>Products</b></a></li>
+    <li><a href="/#social"><b>Social</b></a></li>
+    <li><a href="/#contact"><b>Contact</b></a></li>
+  </ul>
+
+  <section style="min-height: 100vh; margin-top: 70px;">
+    <div class="center">
+        <h3 class="center"><b>ABOUT OUR SHOES</b></h3>
+        <p>
+
+        </p>
+    </div>
+    
+  </section>
+
+  <div id="WAButton">
+
+  </div>
+
+  <footer>
+    <div class="container white-text">
+      <b>© 2020 DIAPRO</b>
+      <a class="white-text text-lighten-4 right" href="#top">TOP^</a>
+    </div>
+  </footer>
+
+  <!-- Scripts-->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous">
+  </script>
+  <script src="static/js/materialize.js"></script>
+  <script src="static/js/product.js"></script>
+  <script src="static/js/floating-wpp.min.js"></script>
+  <script src="https://kit.fontawesome.com/d9f7d83514.js" crossorigin="anonymous"></script>
+  <!-- End Scripts -->
+
+
+</body>
+</html>
